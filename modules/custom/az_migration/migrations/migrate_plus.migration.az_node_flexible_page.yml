@@ -69,7 +69,7 @@ process:
   sticky: sticky
 
   path/pathauto:
-    - 
+    -
       plugin: skip_on_empty
       source: alias
       method: process
@@ -78,7 +78,7 @@ process:
       default_value: 0
 
   path/alias:
-    - 
+    -
       plugin: skip_on_empty
       source: alias
       method: process
@@ -129,8 +129,8 @@ process:
   field_az_main_content:
       plugin: paragraphs_mapping_flexible_page
       source:
-        - '@temp_pid'
         - '@tmp_flexible_subpage'
+        - '@temp_pid'
 
 dependencies:
   enforced:
